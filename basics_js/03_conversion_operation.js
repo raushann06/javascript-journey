@@ -26,3 +26,12 @@ undefined => NaN
 let isLoggedIn = "true";
 let booleanIsLoggedIn = Boolean(isLoggedIn);
 console.log(booleanIsLoggedIn); // true
+
+/*1 => true
+0 => false
+"" => false
+*/
+
+let someNumber = 45; 
+let stringNumber = String(someNumber);
+console.log(typeof stringNumber);
