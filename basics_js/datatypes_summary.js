@@ -29,3 +29,25 @@ const myFunction = function() {
 console.log(typeof bigNumber);
 console.log(typeof outsideTemp);
 
+
+
+
+let myname = "Raushan";
+let anothername = myname;
+
+anothername = "Raj";
+
+console.log(myname); // Raushan
+console.log(anothername); // Raj
+
+let userOne = {
+    email: "raushan@example.com",
+    upi: "raushan@okicici"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "raushanraj06@example.com";
+
+console.log(userOne.email); // raushanraj06@example.com
+console.log(userTwo.email); // raushanraj06@example.com
