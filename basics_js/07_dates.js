@@ -29,3 +29,8 @@ console.log(newDate.getMonth() + 1);//since month in js start from 0 so not to g
 console.log(newDate.getDay());
 
 console.log(`The current month is ${newDate.getMonth() + 1} and day is ${newDate.getDay()}`);
+
+console.log(newDate.toLocaleString('default',{
+    weekday: "long"
+    
+}));
