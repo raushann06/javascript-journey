@@ -6,7 +6,8 @@
     //Named IIFE
     console.log(`DB Connected`);
 
-})();
+})();//yha semicolon use kiye h kyuki iife ke context ko rokna h 
+
 
 ( (name) => {
     //Unnamed IIFE
